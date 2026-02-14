@@ -54,3 +54,67 @@ print()
 # now hamne kuch basic data types cover kiye hain or ham age or data types bhi code krenge ... 
 
 
+## String data type 
+# ham string ko kaise define krte hain
+print()
+a = 'redbull'
+print("this is a single quote string")
+print(a)
+print(type(a))
+
+print()
+
+b = "mercedes"
+print("this is a double quote strinng")
+print(b)
+print(type(b))
+
+print()
+
+c = '''meclaren is a great team in formula 1 and they have a great driver named lando norris
+
+
+    and they are doing great in this season of formula 1
+
+        and they are one of the best teams in formula 1 history
+
+    
+    and they have a great car and they are doing great in this season of formula 1
+    and they are one of the best teams in formula 1 history
+    
+    
+        '''
+print('''this is a triple  quote value ''')
+print(c)
+print(type(c))
+
+#  list data type              
+                          
+list1 = [1,3,5,6,7,8,9]
+print("this is a list data type")
+print(list1)
+print(type(list1))
+
+print()
+
+#  tuple data type
+tuple1 = (1,3,5,6,7,8,9)
+print("this is a tuple data type")
+print(tuple1)
+print(type(tuple1))            
+              
+dict1 ={
+    1:"redbull",
+    2:"mercedes", 
+    3:"mclaren",
+    
+}
+print()
+
+print("this is a dictionary data type")
+print(dict1)    
+print(type(dict1))
+
+
+
+              

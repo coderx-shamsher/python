@@ -9,7 +9,15 @@ print("this is first day in python " )
 # python filename.py 
 
 # ham print() function mein multiple values ko print kar sakte hain, aur ham unko comma se separate krte hain  
-print("this is hello","python",111,222)
+print("String values => ")
+print("this is hello","python")
+print()
+
+print("Numbers/Integer values => ", 234,369,963)
+print()
+print("Float values => ", 3.14, 2.718, 1.618)
+print()
+# what is that integer and float values we will disuss in the next topic name Data types in python .
 
 # 1) print () mein ham es trah say print kr sakte hain values koi or now ham dekhenge concept of the variables in python 
 

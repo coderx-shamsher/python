@@ -110,3 +110,68 @@ print("after -> ",a)
 "or ham same he subraction, or other arithmetic operators use kr skate hain. example -> alll he bitwise oprs etc... "
 
 
+# ---> enforce  precedence with parentheses 
+print()
+
+numX= 1+3*2   # how this calculations is done lets see the answer first 
+print(numX)   # 7 but how 7  calculation to kuch ese honi chaahie 1+3 = 4 *2 = 8 but python mein esa nhi hota.. first  3*2 = 6 + 1 = 7 
+
+# first multiplication then Plus 
+
+# let's see another  example with parentheses 
+numY = (2 + 2) * 2
+print()
+print(numY)
+
+# here we add parentheses or es k sath he calculation ki priority change hogi  first without parentheses 1) multiplication then plus but now hamne plus ko parentheses mein rahkha hai or multiplication parentheses k bahar hain 
+
+# with parentheses 
+# first plus or whatever the operator you give in parentheses 
+numV = (20 - 10 ) * 2 
+print()
+print(numV)
+
+### ------>>>>> these are the calculation priorities in python with operators and parentheses 
+
+
+
+### -------> logical operators  <-------- ### 
+## 1) and 2) or 3) not  
+
+
+# ----->  here is the not  operator with boolean values 
+print("first how the normal boolean values ")
+print("true value ==> ", True)
+print("false value ==> ", False)
+print()
+
+
+print("not with false ==> ", not False)
+print("not with true ==> ", not True)
+
+# how not works if you give false value to not , to yeh us value ko true mein change krdega or true ko false mein 
+
+print()
+## and logical operator with 
+print("and with boolean ==> ", True and True )
+print("and with boolean ==> ", True and False )
+print()
+# how and logical operator works
+# ager dono conditions ka output true hoga to true milega....
+print()
+
+## or logical operator 
+print("or with boolean ==> ", True or False)
+print("or with boolean ==> ", False or False)
+
+##  how or works 
+## ager dono conditions mein say koi ek  bhi true hain to output true milega.. ager dono he false hai to false.. 
+
+
+
+
+
+
+
+
+

@@ -59,4 +59,20 @@ __text = "Hello ! linux"
 updated = __text.replace("linux","Arch Linux")
 ## replace method koi old value than new value pass krni hoti hai 
 print(updated)
+print()
+## delete using the slicing 
+text_001 = "python00"
+print(text_001)
+delete = text_001[0:-2]
+print("Deleted string ==> ",delete)
+print()
 
+print(text_001[:2])
+
+print(text_001[3:])
+
+print(text_001[:2]+text_001[3:])
+
+# use del keyword to delete entire string 
+del text_001
+print(text_001)
